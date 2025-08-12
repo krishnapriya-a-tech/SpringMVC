@@ -22,7 +22,7 @@ public class EmployeeController {
 
 	// add mapping for "/list"
 
-	@GetMapping("/list")
+	@GetMapping("/ListPage")
 	public String listEmployees(Model theModel) {
 
 		// get the employees from db
